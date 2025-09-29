@@ -1,4 +1,4 @@
-````markdown
+
 # ⚡ Real-Time Chat App – Powered by ZEGOCLOUD
 
 A minimal yet powerful peer-to-peer chat application built with **React + TailwindCSS**, using **ZEGOCLOUD ZIM SDK**.  
@@ -16,14 +16,14 @@ This app simulates **1-on-1 messaging** between two users (**Aman & Amit**) with
 ---
 
 ## ✨ Features
-✅ Real-time peer-to-peer messaging  
-✅ Token-based login using ZEGOCLOUD  
-✅ In-memory message history  
-✅ Online status indicator  
-✅ Two-user chat simulation (Aman & Amit)  
-✅ Smooth and responsive UI with TailwindCSS  
-✅ Auto-scroll to latest message  
-✅ Logout / re-login functionality  
+- ✅ Real-time peer-to-peer messaging  
+- ✅ Token-based login using ZEGOCLOUD  
+- ✅ In-memory message history  
+- ✅ Online status indicator  
+- ✅ Two-user chat simulation (Aman & Amit)  
+- ✅ Smooth and responsive UI with TailwindCSS  
+- ✅ Auto-scroll to latest message  
+- ✅ Logout / re-login functionality  
 
 ---
 
@@ -43,34 +43,35 @@ This app simulates **1-on-1 messaging** between two users (**Aman & Amit**) with
 
 ## 🛠️ Setup Instructions
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/amanverma420/Chatapp.git
-   cd chatappzego
+### 1. Clone the repository
+```bash
+git clone https://github.com/amanverma420/Chatapp.git
+cd chatappzego
 ````
 
-2. **Install dependencies**
+### 2. Install dependencies
 
-   ```bash
-   npm install
-   ```
+```bash
+npm install
+```
 
-3. **Configure environment variables**
-   Create a `.env` file in the root directory and add:
+### 3. Configure environment variables
 
-   ```bash
-   VITE_ZIM_APP_ID=your_zego_app_id
-   VITE_TOKEN_AMAN=your_token_for_aman
-   VITE_TOKEN_AMIT=your_token_for_amit
-   ```
+Create a `.env` file in the root directory and add:
 
-4. **Run the development server**
+```bash
+VITE_ZIM_APP_ID=your_zego_app_id
+VITE_TOKEN_AMAN=your_token_for_aman
+VITE_TOKEN_AMIT=your_token_for_amit
+```
 
-   ```bash
-   npm run dev
-   ```
+### 4. Run the development server
 
-   Now open your browser and visit: **[http://localhost:5173](http://localhost:5173)**
+```bash
+npm run dev
+```
+
+Now open your browser and visit: [http://localhost:5173](http://localhost:5173)
 
 ---
 
